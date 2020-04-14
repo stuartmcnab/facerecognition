@@ -13,18 +13,18 @@ function App() {
         <Particles className='particles' 
             params={{
               particles: {
-                    color: {value: "#000000",},
+                    color: {value: "#a463f2",},
                     number: {value: "100",},
                     size: {value: "10"},
                     opacity: {value: "0.6"},
-                    line_linked: {color:{value: "#000000",}}
+                    line_linked: {color:{value: "#a463f2",}}
                   }
                 }}
           />
         <Navigation />
         <Logo />
-        <ImageLinkForm />
         {/* <FaceRecognition /> */}
+        <ImageLinkForm />
     </div>
   );
 }
